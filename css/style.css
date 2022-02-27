@@ -12892,3 +12892,6 @@ textarea.form-control {
   height: 100%;
   font-size: -webkit-xxx-large;
 }
+.cursor-pointer{
+  cursor: pointer!important;
+}
