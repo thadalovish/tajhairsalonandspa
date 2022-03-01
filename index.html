@@ -127,7 +127,7 @@
             <div class="icon"><img src="./images/hairstyle.svg" class="service-image-size" /></div>
             <div class="media-body">
               <h3 class="heading mb-3">Haircut &amp; Styling</h3>
-              <p>A small river named Duden flows by their place and supplies.</p>
+              <p>It is not just a job, it is art and pleasure to work with your hair.</p>
             </div>
           </div>
         </div>
@@ -136,7 +136,7 @@
             <div class="icon"><img src="./images/man-with-beard.svg" class="service-image-size" /></div>
             <div class="media-body">
               <h3 class="heading mb-3">Beard</h3>
-              <p>A small river named Duden flows by their place and supplies.</p>
+              <p>Best place To Style Your Beard as Shining Armor for Sharp Look.</p>
             </div>
           </div>
         </div>
@@ -146,7 +146,7 @@
                 class="service-image-size" /></div>
             <div class="media-body">
               <h3 class="heading mb-3">Makeup</h3>
-              <p>A small river named Duden flows by their place and supplies.</p>
+              <p>Makeup can have a magical effect when performed by real masters.</p>
             </div>
           </div>
         </div>
@@ -155,7 +155,8 @@
             <div class="icon"><img src="./images/face-treatment.svg" class="service-image-size" /></div>
             <div class="media-body">
               <h3 class="heading mb-3">Body Treatment</h3>
-              <p>A small river named Duden flows by their place and supplies.</p>
+              <p>Relaxation and enjoyment make you a different and happier person.
+              </p>
             </div>
           </div>
         </div>
@@ -207,7 +208,7 @@
                 <div class="form-group">
                   <div class="select-wrap">
                     <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                    <select name="Gender" id="Gender" class="form-control" required>
+                    <select name="Gender" id="Gender" class="form-control" onChange ="update()" required>
                       <option value="men">Men</option>
                       <option value="women">Women</option>
                     </select>
@@ -223,7 +224,7 @@
                 <div class="form-group">
                   <div class="select-wrap">
                     <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                    <select name="services" id="services" class="form-control" required>
+                    <select name="servicesForMen" id="servicesForMen" class="form-control" required>
                       <option value="Hair Cut">Hair Cut</option>
                       <option value="Shampoo">Shampoo</option>
                       <option value="Hair Color">Hair Color</option>
@@ -237,6 +238,23 @@
                       <option value="Manicure">Manicure</option>
                       <option value="Pedicure">Pedicure</option>
                       <option value="Body Treatment">Body Treatment</option>
+                    </select>
+                    <select name="servicesForwomen" id="servicesForwomen" class="form-control" required>
+                      <option value="Hair Cut">Hair Cut</option>
+                      <option value="Hair Color">Hair Color</option>
+                      <option value="Waxing">Waxing</option>
+                      <option value="Hair Setting">Hair Setting</option>
+                      <option value="Hair Spa">Hair Spa</option>
+                      <option value="Head Massage">Head Massage</option>
+                      <option value="Threading">Threading</option>
+                      <option value="Bleach & D-Tan">Bleach & D-Tan</option>
+                      <option value="Clean-Up">Clean-Up</option>
+                      <option value="Skin Therapies">Skin Therapies</option>
+                      <option value="Skin Treatment">Skin Treatment</option>
+                      <option value="Body Treatment">Body Treatment</option>
+                      <option value="Manicure">Manicure</option>
+                      <option value="Pedicure">Pedicure</option>
+                      <option value="Make Up">Make Up</option>
                     </select>
                   </div>
                 </div>
@@ -457,7 +475,7 @@
             <div class="item">
               <div class="team text-center">
                 <div class="img" style="background-image: url(images/member/9.JPG);"></div>
-                <h2>Danica Lewis</h2>
+                <h2>Afzal Ansari</h2>
                 <!-- <span class="position">Hair Stylist</span> -->
               </div>
             </div>
@@ -509,8 +527,8 @@
                     <div class="user-img" style="background-image: url(images/customer/4.JPG)">
                     </div>
                     <div class="pos ml-3">
-                      <p class="name">Jeff Nucci</p>
-                      <span class="position">Businessman</span>
+                      <p class="name">Anil Sethi</p>
+                      <!-- <span class="position">Businessman</span> -->
                     </div>
                   </div>
                 </div>
@@ -524,8 +542,8 @@
                     <div class="user-img" style="background-image: url(images/customer/1.JPG)">
                     </div>
                     <div class="pos ml-3">
-                      <p class="name">Jeff Nucci</p>
-                      <span class="position">Businessman</span>
+                      <p class="name">Naina Sharma</p>
+                      <!-- <span class="position">Businessman</span> -->
                     </div>
                   </div>
                 </div>
@@ -539,8 +557,8 @@
                     <div class="user-img" style="background-image: url(images/customer/2.JPG)">
                     </div>
                     <div class="pos ml-3">
-                      <p class="name">Jeff Nucci</p>
-                      <span class="position">Businessman</span>
+                      <p class="name">Abhay Sen</p>
+                      <!-- <span class="position">Businessman</span> -->
                     </div>
                   </div>
                 </div>
@@ -554,8 +572,8 @@
                     <div class="user-img" style="background-image: url(images/customer/3.JPG)">
                     </div>
                     <div class="pos ml-3">
-                      <p class="name">Jeff Nucci</p>
-                      <span class="position">Businessman</span>
+                      <p class="name">Rahul Jain</p>
+                      <!-- <span class="position">Businessman</span> -->
                     </div>
                   </div>
                 </div>

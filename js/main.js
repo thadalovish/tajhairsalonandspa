@@ -404,9 +404,21 @@ AOS.init({
 
     $('.appointment_time').timepicker({
         minTime: '8:30:00', // 11:45:00 AM,
-        maxTime:'20:30:00',
+        maxTime: '20:30:00',
     });
 
-
 })(jQuery);
+
+function update() {
+    var select = document.getElementById('Gender');
+    var option = select.options[select.selectedIndex];
+    if (option.value === "men") {
+        $('#servicesForwomen').hide();
+        $('#servicesForMen').show();
+    } else {
+        $('#servicesForwomen').show();
+        $('#servicesForMen').hide();
+    }
+}
+update()
 
